@@ -1,6 +1,6 @@
 import PyPDF2
 
-pdffiles = ["1.pdf","2.pdf"]
+pdffiles = ["1.pdf","2.pdf"]    #merge two pdfs
 merger = PyPDF2.PdfMerger()
 for filename in pdffiles:
     pdfFile = open(filename,'rb')
