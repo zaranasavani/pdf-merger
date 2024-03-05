@@ -8,3 +8,4 @@ for filename in pdffiles:
     merger.append(pdfReader)
 pdfFile.close()
 merger.write('merged.pdf')
+print("the end")
